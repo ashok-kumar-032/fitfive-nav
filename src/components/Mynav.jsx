@@ -18,7 +18,7 @@ const Mynav = ({ bg_clr, text_clr, text_change, children }) => {
       <Container>
         <div className="py-3 d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center justify-content-center">
-            <img className="z_10 pointer w-100" src={nav_logo} />
+            <img className="z_10 pointer w-100 pointer" src={nav_logo} />
           </div>
           <ul
             className={

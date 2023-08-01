@@ -9,6 +9,10 @@
   scroll-behavior: smooth !important;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 ul {
   padding-left: 0 !important;
 }
