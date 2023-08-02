@@ -1,9 +1,9 @@
 import React, { Children } from "react";
-import hero from "../assets/img/hero.png";
 import { Col } from "react-bootstrap";
 import { Container, Row } from "react-bootstrap";
 const Fitfive = (props) => {
   const { products, hero, hero_text, children } = props;
+  const btn = Children.toArray(children);
   return (
     <section className="py-5 bg-black">
       <Container>
@@ -11,8 +11,9 @@ const Fitfive = (props) => {
           <div>
             <img src={hero} alt="hero" />
           </div>
+          {btn[0]}
           <p className="text-white pt-4 padding_l_r opacity_06">{hero_text}</p>
-          {children}
+          {btn[1]}
         </div>
         <Row>
           {products.map((val) => {
