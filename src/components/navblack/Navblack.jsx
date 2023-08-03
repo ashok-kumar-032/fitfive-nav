@@ -1,5 +1,5 @@
 import React from "react";
-import Mynav from "./Mynav";
+import Mynav from "../common/Mynav";
 const Navblack = () => {
   return (
     <div>

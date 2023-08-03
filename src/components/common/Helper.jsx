@@ -1,12 +1,12 @@
-import img_0 from "../assets/img/file-icons_1.png";
-import img_1 from "../assets/img/file-icons_1.png";
-import img_2 from "../assets/img/file-icons_2.png";
-import img_3 from "../assets/img/file-icons_3.png";
-import red_1 from "../assets/img/red_1.png";
-import red_2 from "../assets/img/red_2.png";
-import red_3 from "../assets/img/red_3.png";
-import red_4 from "../assets/img/red_4.png";
-import red_5 from "../assets/img/red_5.png";
+import img_0 from "../../assets/img/file-icons_1.png";
+import img_1 from "../../assets/img/file-icons_1.png";
+import img_2 from "../../assets/img/file-icons_2.png";
+import img_3 from "../../assets/img/file-icons_3.png";
+import red_1 from "../../assets/img/red_1.png";
+import red_2 from "../../assets/img/red_2.png";
+import red_3 from "../../assets/img/red_3.png";
+import red_4 from "../../assets/img/red_4.png";
+import red_5 from "../../assets/img/red_5.png";
 export const data = [
   {
     id: 1,

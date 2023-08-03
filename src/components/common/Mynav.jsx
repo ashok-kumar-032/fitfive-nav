@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
-import nav_logo from "../assets/img/nav_logo.svg";
+import nav_logo from "../../assets/img/nav_logo.svg";
 import { BiMenu } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Mynav = ({ bg_clr, text_clr, text_change, children }) => {
