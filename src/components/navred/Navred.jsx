@@ -3,6 +3,7 @@ import Mynav from "../common/Mynav";
 import Fitfive from "../common/Fitfive";
 import { datasecond } from "../common/Helper";
 import hero_red from "../../assets/img/hero_red.png";
+import Vector from "../../assets/img/Vector.png";
 const Navred = () => {
   return (
     <div>
@@ -11,22 +12,7 @@ const Navred = () => {
           <a className="text-white fw-bold mb-0" href="#">
             Work
           </a>
-          <svg
-            className="ms-2"
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 20 20"
-            fill="none"
-          >
-            <path
-              d="M15 7.5L10 12.5L5 7.5"
-              stroke="white"
-              stroke-width="1.66667"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
+          <img className="ms-2" src={Vector} alt="Vector" />
         </li>
       </Mynav>
       <Fitfive

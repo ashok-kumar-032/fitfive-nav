@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import nav_logo from "../../assets/img/nav_logo.svg";
+import Vector from "../../assets/img/Vector.png";
 import { BiMenu } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Mynav = ({ bg_clr, text_clr, text_change, children }) => {
@@ -31,85 +32,25 @@ const Mynav = ({ bg_clr, text_clr, text_change, children }) => {
               <Link to="/" className="text-white home mb-0">
                 Home
               </Link>
-              <svg
-                className="ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-              >
-                <path
-                  d="M15 7.5L10 12.5L5 7.5"
-                  stroke="white"
-                  stroke-width="1.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img className="ms-2" src={Vector} alt="Vector" />
             </li>
             <li>
               <Link to="/about" className="text-white home mb-0">
                 About
               </Link>
-              <svg
-                className="ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-              >
-                <path
-                  d="M15 7.5L10 12.5L5 7.5"
-                  stroke="white"
-                  stroke-width="1.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img className="ms-2" src={Vector} alt="Vector" />
             </li>
             <li>
               <Link to="/work" className="text-white home mb-0">
                 Work
               </Link>
-              <svg
-                className="ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-              >
-                <path
-                  d="M15 7.5L10 12.5L5 7.5"
-                  stroke="white"
-                  stroke-width="1.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img className="ms-2" src={Vector} alt="Vector" />
             </li>
             <li>
               <Link to="/" className="text-white home mb-0">
                 {text_change}
               </Link>
-              <svg
-                className="ms-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-              >
-                <path
-                  d="M15 7.5L10 12.5L5 7.5"
-                  stroke="white"
-                  stroke-width="1.66667"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img className="ms-2" src={Vector} alt="Vector" />
             </li>
             {children}
             <li className="d-block d-xl-none">
