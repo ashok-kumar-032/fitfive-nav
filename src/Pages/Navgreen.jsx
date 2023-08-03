@@ -1,8 +1,8 @@
 import React from "react";
-import Mynav from "../common/Mynav";
-import hero_1 from "../../assets/img/hero.png";
-import Fitfive from "../common/Fitfive";
-import { data } from "../common/Helper";
+import Mynav from "../components/common/Mynav";
+import hero_1 from "../assets/img/hero.png";
+import Fitfive from "../components/common/Fitfive";
+import { data } from "../components/common/Helper";
 const Navgreen = () => {
   return (
     <div>

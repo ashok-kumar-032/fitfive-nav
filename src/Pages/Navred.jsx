@@ -1,9 +1,9 @@
 import React from "react";
-import Mynav from "../common/Mynav";
-import Fitfive from "../common/Fitfive";
-import { datasecond } from "../common/Helper";
-import hero_red from "../../assets/img/hero_red.png";
-import Vector from "../../assets/img/Vector.png";
+import Mynav from "../components/common/Mynav";
+import Fitfive from "../components/common/Fitfive";
+import { datasecond } from "../components/common/Helper";
+import hero_red from "../assets/img/hero_red.png";
+import Vector from "../assets/img/Vector.png";
 const Navred = () => {
   return (
     <div>
